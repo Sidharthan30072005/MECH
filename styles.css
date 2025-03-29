@@ -1,62 +1,60 @@
-/* Mechanical Theme Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to right, #2c3e50, #1e1e1e);
+    font-family: 'Orbitron', sans-serif;
+    background: url('metal-texture.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: white;
     text-align: center;
 }
 
 header {
-    background: #222;
+    background: black;
     padding: 20px;
-    font-size: 24px;
-    border-bottom: 3px solid #ffcc00;
+    border-bottom: 3px solid yellow;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin-top: 50px;
-}
-
-.option {
-    width: 200px;
-    height: 200px;
-    background: #333;
-    border: 2px solid #ffcc00;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 60vh;
 }
 
-.option:hover {
-    transform: scale(1.1);
-    background: #444;
+.options {
+    display: flex;
+    gap: 30px;
 }
 
-.option img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-}
-
-.option a {
+.option-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid yellow;
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+    width: 180px;
+}
+
+.option-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.option-card:hover {
+    background: yellow;
+    color: black;
+    transform: scale(1.1);
 }
 
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #222;
-    border-top: 2px solid #ffcc00;
-    margin-top: 50px;
+    background: black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
