@@ -1,42 +1,30 @@
-/* Mechanical Theme Styles */
+/* Mechanical Theme Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #3a3a3a, #1e1e1e);
+    background: linear-gradient(to right, #2c3e50, #1e1e1e);
     color: white;
+    text-align: center;
 }
 
 header {
     background: #222;
     padding: 20px;
-    text-align: center;
     font-size: 24px;
-    font-weight: bold;
     border-bottom: 3px solid #ffcc00;
 }
 
 .container {
-    text-align: center;
-    padding: 50px;
-}
-
-h1 {
-    font-size: 40px;
-    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.8);
-}
-
-.options {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    gap: 50px;
+    margin-top: 50px;
 }
 
 .option {
     width: 200px;
     height: 200px;
-    margin: 20px;
-    text-align: center;
     background: #333;
     border: 2px solid #ffcc00;
     border-radius: 10px;
@@ -65,7 +53,6 @@ h1 {
     font-weight: bold;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
